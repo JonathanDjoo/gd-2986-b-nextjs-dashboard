@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #050512; /* Warna latar belakang sangat gelap */
+  color: #ffffff;
+}
+
+/* Custom class untuk warna Cyan Sea Parcel */
+.text-sea-cyan {
+  color: #00f2ff;
+}
+
+.bg-sea-cyan {
+  background-color: #00f2ff;
+}
+
+/* Efek Glassmorphism untuk kartu */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
