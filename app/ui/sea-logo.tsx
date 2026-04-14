@@ -10,4 +10,5 @@ export default function SeaLogo() {
       <span className="text-xl font-bold tracking-tight text-white">Sea Parcel</span>
     </div>
   );
+  // hallo
 }
