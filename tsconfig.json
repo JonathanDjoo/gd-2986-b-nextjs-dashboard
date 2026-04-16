@@ -22,7 +22,6 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "ignoreDeprecations": true,
   },
   "include": [
     "next-env.d.ts",
